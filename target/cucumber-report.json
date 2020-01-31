@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "user logs in and searches for product",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35586339500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user signin into testmeapp",
+            "match": {
+              "location": "Case1.user_signin_into_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2856814400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user searches for a particular product",
+            "match": {
+              "location": "Case1.user_searches_for_a_particular_product()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-31T07:03:36.940Z",
+        "line": 47,
+        "name": "user proceeds to payment without adding to cart",
+        "description": "",
+        "id": "testmeapp-functionality;user-proceeds-to-payment-without-adding-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13582500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user proceeds for payment without adding to cart",
+            "match": {
+              "location": "Case1.user_proceeds_for_payment_without_adding_to_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "TestMeApp doesnt display the cart icon",
+            "match": {
+              "location": "Case1.testmeapp_doesnt_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "user logs in and searches for product",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 57665086200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user signin into testmeapp",
+            "match": {
+              "location": "Case1.user_signin_into_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47111087700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user searches for a particular product",
+            "match": {
+              "location": "Case1.user_searches_for_a_particular_product()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-31T07:04:15.410Z",
+        "line": 52,
+        "name": "user proceeds to payment after adding to cart",
+        "description": "",
+        "id": "testmeapp-functionality;user-proceeds-to-payment-after-adding-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 564022600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user proceeds for payment after adding to cart",
+            "match": {
+              "location": "Case1.user_proceeds_for_payment_after_adding_to_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8714100,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "testmeapp displays cart icon",
+            "match": {
+              "location": "Case1.testmeapp_displays_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp functionality",
+    "description": "",
+    "id": "testmeapp-functionality",
+    "keyword": "Feature",
+    "uri": "file:cs.feature",
+    "tags": []
+  }
+]
