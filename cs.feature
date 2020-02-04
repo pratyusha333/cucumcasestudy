@@ -3,22 +3,22 @@ Background: user logs in and searches for product
 Given  user signin into testmeapp
 When  user searches for a particular product
 
-#Scenario: register to testmeapp
-#Given user should be on sign up page
-#When user enters username "rajinik"
-#And user enters firstname "alex"
-#And user enters lastname "a"
-#And user enters password "123"
-#And user  re-enters password "123"
-#And user selects gender as Male
-#And user enters emailid "alex@gmail.com"
-#And user enters mobilenumber "9876543210"
-#And user enters DOB "08/24/1997"
-#And user enters address "Hyderabad"
-#And user selects security question
-#And user enters the answer "Blue"
-#And user clicks register
-#Then user should be on login page
+Scenario: register to testmeapp
+Given user should be on sign up page
+When user enters username "rajinik"
+And user enters firstname "alex"
+And user enters lastname "a"
+And user enters password "1234"
+And user  re-enters password "1234"
+And user selects gender as Male
+And user enters emailid "alex@gmail.com"
+And user enters mobilenumber "9876543210"
+And user enters DOB "08/24/1997"
+And user enters address "Hyderabad"
+And user selects security question
+And user enters the answer "Blue"
+And user clicks register
+Then user should be on login page
 
 ###########
 Scenario Outline: login in TestMeApp

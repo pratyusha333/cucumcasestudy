@@ -46,14 +46,14 @@ public class Case1 {
 
 	@When("user enters password {string}")
 	public void user_enters_password(String string) {
-		driver.findElement(By.id("password")).sendKeys("123");
+		driver.findElement(By.id("password")).sendKeys("1234");
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new cucumber.api.PendingException();
 	}
 
 	@When("user  re-enters password {string}")
 	public void user_re_enters_password(String string) {
-		driver.findElement(By.name("confirmPassword")).sendKeys("123");
+		driver.findElement(By.name("confirmPassword")).sendKeys("1234");
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new cucumber.api.PendingException();
 	}
@@ -144,7 +144,7 @@ public void user_enters_and(String string, String string2) {
     // Write code here that turns the phrase above into concrete actions
     //throw new cucumber.api.PendingException();
     driver.findElement(By.id("userName")).sendKeys("rajinik");
-    driver.findElement(By.id("password")).sendKeys("123");
+    driver.findElement(By.id("password")).sendKeys("1234");
     
 }
 
@@ -173,7 +173,7 @@ public void user_should_be_in_Home_page() {
 	    driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
 	    driver.findElement(By.linkText("SignIn")).click();
 	    driver.findElement(By.id("userName")).sendKeys("rajinik");
-	    driver.findElement(By.id("password")).sendKeys("123");
+	    driver.findElement(By.id("password")).sendKeys("1234");
 	    driver.findElement(By.xpath("//input[@name='Login']")).click();
 	    
 }
