@@ -1,1 +1,272 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "user logs in and searches for product",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepdef3.Case1.user_signin_into_testmeapp(Case1.java:228)\r\n\tat ✽.user signin into testmeapp(file:cs.feature:3)\r\n",
+              "duration": 30623580100,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "user signin into testmeapp",
+            "match": {
+              "location": "Case1.user_signin_into_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26800,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user searches for a particular product",
+            "match": {
+              "location": "Case1.user_searches_for_a_particular_product()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-04T07:47:48.439Z",
+        "line": 34,
+        "name": "login in TestMeApp",
+        "description": "",
+        "id": "testmeapp-functionality;login-in-testmeapp;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16300,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user must be in login page",
+            "match": {
+              "location": "Case1.user_must_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user enters \"Lalitha\" and \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Case1.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8600,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "performs login",
+            "match": {
+              "location": "Case1.performs_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user must be in home page",
+            "match": {
+              "location": "Case1.user_must_be_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "user logs in and searches for product",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepdef3.Case1.user_signin_into_testmeapp(Case1.java:228)\r\n\tat ✽.user signin into testmeapp(file:cs.feature:3)\r\n",
+              "duration": 30883479200,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "user signin into testmeapp",
+            "match": {
+              "location": "Case1.user_signin_into_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user searches for a particular product",
+            "match": {
+              "location": "Case1.user_searches_for_a_particular_product()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-04T07:48:19.089Z",
+        "line": 48,
+        "name": "user proceeds to payment without adding to cart",
+        "description": "",
+        "id": "testmeapp-functionality;user-proceeds-to-payment-without-adding-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25500,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "user proceeds for payment without adding to cart",
+            "match": {
+              "location": "Case1.user_proceeds_for_payment_without_adding_to_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9400,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "TestMeApp doesnt display the cart icon",
+            "match": {
+              "location": "Case1.testmeapp_doesnt_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "user logs in and searches for product",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Home]\u003e but was:\u003c[Login]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepdef3.Case1.user_signin_into_testmeapp(Case1.java:228)\r\n\tat ✽.user signin into testmeapp(file:cs.feature:3)\r\n",
+              "duration": 31856505500,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "user signin into testmeapp",
+            "match": {
+              "location": "Case1.user_signin_into_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user searches for a particular product",
+            "match": {
+              "location": "Case1.user_searches_for_a_particular_product()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-04T07:48:49.975Z",
+        "line": 53,
+        "name": "user proceeds to payment after adding to cart",
+        "description": "",
+        "id": "testmeapp-functionality;user-proceeds-to-payment-after-adding-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13400,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "user proceeds for payment after adding to cart",
+            "match": {
+              "location": "Case1.user_proceeds_for_payment_after_adding_to_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15100,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "testmeapp displays cart icon",
+            "match": {
+              "location": "Case1.testmeapp_displays_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "TestMeApp functionality",
+    "description": "",
+    "id": "testmeapp-functionality",
+    "keyword": "Feature",
+    "uri": "file:cs.feature",
+    "tags": []
+  }
+]

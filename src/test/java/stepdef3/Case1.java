@@ -25,7 +25,7 @@ public class Case1 {
 
 	@When("user enters username {string}")
 	public void user_enters_username(String string) {
-		driver.findElement(By.id("userName")).sendKeys("rajinik");
+		driver.findElement(By.id("userName")).sendKeys("Lalitha");
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new cucumber.api.PendingException();
 	}
@@ -46,7 +46,7 @@ public class Case1 {
 
 	@When("user enters password {string}")
 	public void user_enters_password(String string) {
-		driver.findElement(By.id("password")).sendKeys("1234");
+		driver.findElement(By.id("password")).sendKeys("Password123");
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new cucumber.api.PendingException();
 	}
@@ -143,8 +143,8 @@ public void user_must_be_in_login_page() {
 public void user_enters_and(String string, String string2) {
     // Write code here that turns the phrase above into concrete actions
     //throw new cucumber.api.PendingException();
-    driver.findElement(By.id("userName")).sendKeys("rajinik");
-    driver.findElement(By.id("password")).sendKeys("1234");
+    driver.findElement(By.id("userName")).sendKeys("Lalitha");
+    driver.findElement(By.id("password")).sendKeys("Password123");
     
 }
 
@@ -173,7 +173,7 @@ public void user_should_be_in_Home_page() {
 	    driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
 	    driver.findElement(By.linkText("SignIn")).click();
 	    driver.findElement(By.id("userName")).sendKeys("rajinik");
-	    driver.findElement(By.id("password")).sendKeys("1234");
+	    driver.findElement(By.id("password")).sendKeys("123");
 	    driver.findElement(By.xpath("//input[@name='Login']")).click();
 	    
 }
@@ -222,8 +222,8 @@ public void user_signin_into_testmeapp() {
 	driver=Drivers.getDriver("chrome");
     driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
     driver.findElement(By.linkText("SignIn")).click();
-    driver.findElement(By.id("userName")).sendKeys("rajinik");
-    driver.findElement(By.id("password")).sendKeys("123");
+    driver.findElement(By.id("userName")).sendKeys("Lalitha");
+    driver.findElement(By.id("password")).sendKeys("Password123");
     driver.findElement(By.xpath("//input[@name='Login']")).click();
     Assert.assertEquals("Home",driver.getTitle());
     System.out.println("Home page");
