@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-02-04T08:37:41.336Z",
+        "start_timestamp": "2020-02-04T08:58:14.567Z",
         "line": 33,
         "name": "login in TestMeApp",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 33324114600,
+              "duration": 30963704000,
               "status": "passed"
             },
             "line": 26,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 300514800,
+              "duration": 496781000,
               "status": "passed"
             },
             "line": 27,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 450622600,
+              "duration": 448778900,
               "status": "passed"
             },
             "line": 28,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 28032500,
+              "duration": 12375500,
               "status": "passed"
             },
             "line": 29,
